@@ -1,6 +1,6 @@
-# Etsy PHP SDK [![Build Status](https://travis-ci.org/inakiabt/etsy-php.svg?branch=master)](https://travis-ci.org/inakiabt/etsy-php)
+# Etsy PHP SDK
 
-Based on [Etsy Rest API description](http://www.etsy.com/developers/documentation/reference/apimethod) output, this wrapper provides a simple client with all available methods on Etsy API (thanks to the `__call` magic PHP method!), validating its arguments on each request (Take a look to https://github.com/inakiabt/etsy-php/blob/master/src/Etsy/methods.json for full list of methods and its arguments).
+Based on [Etsy Rest API description](http://www.etsy.com/developers/documentation/reference/apimethod) output, this wrapper provides a simple client with all available methods on Etsy API (thanks to the `__call` magic PHP method!), validating its arguments on each request (Take a look to https://github.com/rapidwebltd/etsy-php/blob/master/src/Etsy/methods.json for full list of methods and its arguments).
 
 ## Requirements
 
@@ -21,7 +21,7 @@ Add the following to your `composer.json` file:
 ```json
 {
   "require": {
-    "inakiabt/etsy-php": ">=0.9.0"
+    "rapidwebltd/etsy-php": ">=0.9.0"
   }
 }
 ```
@@ -161,27 +161,6 @@ To read more about associations: https://www.etsy.com/developers/documentation/g
 $ vendor/bin/phpunit src/test/
 ```
 
-## Changelog
+## Thanks
 
-* 1.0
-  * Init commit, working module.
-
-## Author
-
-**Iñaki Abete**
-web: http://github.com/inakiabt
-email: inakiabt+github@gmail.com
-twitter: @inakiabt
-
-
-## Contribute
-
-Found a bug? Want to contribute and add a new feature?
-
-Please fork this project and send me a pull request!
-
-## License
-
-mobiledevice is licensed under the MIT license:
-
-www.opensource.org/licenses/MIT
+This is a fork of the good work of [Iñaki Abete](https://github.com/inakiabt/etsy-php).
