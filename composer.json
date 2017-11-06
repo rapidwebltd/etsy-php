@@ -1,6 +1,6 @@
 {
     "name": "rapidwebltd/etsy-php",
-    "description": "Simple PHP wrapper for Etsy API",
+    "description": "Based on Etsy Rest API description output, this wrapper provides a simple client with all available methods on Etsy API (thanks to the __call magic PHP method!), validating its arguments on each request.",
     "license": "MIT",
     "authors": [
     {
